@@ -1,0 +1,59 @@
+.wave-text {
+  display: inline-block;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  animation: wave 1.5s infinite ease-in-out;
+}
+
+p {
+    text-align: center;
+    color: black;
+    background-color: white;
+    max-width: 650px;
+    border-radius: 12px;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: large;   
+}
+
+h1{
+    background-color: gold;
+    text-align: center;
+    color: black;
+    max-width: 670px;
+    border-radius: 12px;
+    margin: 0 auto;
+}
+
+div {
+    text-align: center;
+    color: gold;
+    font-size: xx-large;
+}
+
+.hover-img {
+  position: relative;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.hover-img .popup {
+  display: none;
+  position: absolute;
+  top: -270px; 
+  left: -550px;
+  width: 300px; 
+  border: 2px solid black;
+  border-radius: 8px;
+  background: white;
+  z-index: 99;
+}
+
+.hover-img:hover .popup {
+  display: block;
+}
+
+strong {
+    color: blue;
+}
